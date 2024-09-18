@@ -3,983 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-<script type="text/javascript" src="engine1/jquery.js"></script>
-</head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .container{
-        height: auto;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        overflow: hidden;
-    }
-    #topbar{
-        height: 24px;
-        width: 100%;
-        background-color: whitesmoke;
-    }
-
-    #section{
-        height: 1080px;
-        width: 100%;
-        background-color: whitesmoke;
-        font-style: italic;
-    }
-    .box{
-        height: 200px;
-        width: 18%;
-        float: left;
-        margin-top: 50px;
-        margin-left: 250px;
-        text-align: center;
-       
-    }
-
-
-        p{
-            height: 10px;
-            width: 20%;
-            line-height: normal;
-            width: 300px
-            
-
+    <title>About Us - [Your Company Name]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom right, #ffcccc, #ffe6e6);
+            color: #333333;
         }
-        #ABOUT{
-            height: 400px;
-            width: 100%;
-            background-color: white;
-            padding: 0;
-            margin: 0;
+        h1 {
+            color: #ff4d4d;
+            margin-bottom: 30px;
+            font-size: 2.5em; 
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
         }
-        #h1{
-            color: gold;
-            margin-left: 200px;
-            width: auto;
-            margin-top: 20px;
-            width: 125px;
-            margin-left: 870px;
-            margin-bottom: 17px;
-            font-size: 70px;
-        }
-        #bigbox{
-            height: 500px;
-            width: 100%;
-            background-color: white;
-        }
-        #bigp{
-            width: 800px;
-            margin-left: 600px;
+        .card {
+            border: none;
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
             text-align: center;
-        }
-        .smallbox{
-            height: 400px;
-            width: 730px;
-            float: left;
-            margin-left:200px;
-            margin-top: 200px;
-           text-align: center;
- 
-        }
-        .smallbox2{
-            height: 683px;
-            width: 730px;
-            float: left;
-            margin-left:100px;
-            margin-top: 60px;
-            background-image: url(Staff/the\ group.jpg)
-
-        }
-        #bigzp{
-            width: 600px;
-        }
-        #borderbas{
-            height: 600px;
-            width: 100%;
-            background-color: white;
-        }
-        .des2{
-            height: 200px;
-            width: 400px;
-            margin-left: 200px;
-            margin-top: 80px;
-            float: left;
-        }
-        .des3{height: 200px;
-            width: 400px;
-            margin-left: 200px;
-            margin-top: 100px;
-            float: left;
-
-        }
-        #client{
-            height: 75px;
-            width: 100%;
-            background-color: white;
-            padding: 0;
-            margin: 0;
-        }
-        #h2{
-            color: gold;
-            margin-left: 200px;
-            width: auto;
-            margin-top: 20px;
-            width: 125px;
-            margin-left: 870px;
-            margin-bottom: 17px;
-            font-size: 70px;
-        }
-        #clients{
-            height: 230px;
-            width: 100%;
-        }
-        #Services{
-            height: 75px;
-            width: 100%;
-            background-color: white;
-            padding: 0;
-            margin: 0;
-        }
-        #h3{
-            color: gold;
-            margin-left: 200px;
-            width: auto;
-            margin-top: 20px;
-            width: 125px;
-            margin-left: 870px;
-            margin-bottom: 17px;
-            font-size: 70px;
-            
-        }
-        #daddyservices{
-            height: 750px;
-            width: 100%;
-            background-color: white;
-        }
-        #dox1{
-            height: 330px;
-            width: 400px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 150px;
-            margin-top: 10px;
-            box-shadow: 4px 4px 4px 4px #eee;
-            text-align: center;
-
-        }
-
-        #dox2{
-            height: 330px;
-            width: 400px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 150px;
-            margin-top: 10px;
-            box-shadow: 4px 4px 4px 4px #eee;
-            text-align: center;
-
-        }
-        #dox3{
-            height: 330px;
-            width: 400px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 150px;
-            margin-top: 10px;
-            box-shadow: 4px 4px 4px 4px #eee;
-            text-align: center;
-
-        }
-        #dox4{
-            height: 330px;
-            width: 400px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 150px;
-            margin-top: 20px;
-            box-shadow: 4px 4px 4px 4px #eee;
-            text-align: center;
-        }
-        #dox5{
-            height: 330px;
-            width: 400px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 150px;
-            margin-top: 20px;
-            box-shadow: 4px 4px 4px 4px #eee;
-            text-align: center;
-
-        }
-        #dox6{
-            height: 330px;
-            width: 400px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 150px;
-            margin-top: 20px;
-            box-shadow: 4px 4px 4px 4px #eee;
-            text-align: center;
-            
-        }
-        #action{
-            height: 300px;
-            width: 100%;
-            background-color: lightgoldenrodyellow;
-        }
-        #bar{
-            height: 250px;
-            width: 50%;
-            border: 1px solid lightgoldenrodyellow;
-            float: left;
-        }
-        #p1{
-            width: 700px;
-            margin-left: 140px;
-        }
-        #bar2{
-            height: 65px;
-            width: 300px;
-            border: 1px solid black;
-            float: left;
-            margin-top: 130px;
-            margin-left: 150px;
-            font-size: 30px;
-            text-align: center;
-        }
-        #bar2:hover{
-            background-color: black;
-            color: white;
-            cursor: pointer;
-        }
-        #port{
-            height: 75px;
-            width: 100%;
-            background-color: white;
-            padding: 0;
-            margin: 0;
-        }
-        #h4{
-            color: gold;
-            margin-left: 200px;
-            width: auto;
-            margin-top: 20px;
-            width: 125px;
-            margin-left: 820px;
-            margin-bottom: 17px;
-            font-size: 70px;
-            
-        }
-        #portbox{
-            height: 1020px;
-            width: 100%;
-            background-color: white;
-            margin-top: 30px;
-        }
-        #Team{
-            height: 75px;
-            width: 100%;
-            background-color: white;
-            padding: 0;
-            margin: 0;
-        }
-        #h5{
-            color: gold;
-            margin-left: 200px;
-            width: auto;
-            margin-top: 20px;
-            width: 125px;
-            margin-left: 870px;
-            margin-bottom: 17px;
-            font-size: 70px;   
-        }
-        #Teambox{
-            height: 800px;
-            width: 100%;
-            background-color: white;
-        }
-        #Contact{
-            height: 75px;
-            width: 100%;
-            background-color: white;
-            padding: 0;
-            margin: 0;
-        }
-        #h6{
-            color: gold;
-            margin-left: 200px;
-            width: auto;
-            margin-top: 20px;
-            width: 125px;
-            margin-left: 870px;
-            margin-bottom: 17px;
-            font-size: 70px;
-        }
-        #conbox{
-            height: 700px;
-            width: 100%;
-            overflow: hi
-        }
-        #emptyarea{
-            height: 70px;
-            width: 100%;
-            background-color: white;
-        }
-        .end1{
-            height: 250px;
-            width: 100%;
-            background-color: black;
-            color: white;
-        }
-        #h7{
-            margin-left: 960px;
-            line-height: 50px;
-        }
-        #endbox{
-            height: 100px;
-            width: 50%;
-            margin-left: 530px;
-        }
-        #endp{
-            width: fit-content;
-            margin-left: 140px;
-            font-style: italic;
-        }
-        #socialbar{
-            height: 34px;
-            width: 100%;
-
-            margin-top: 40px;
-        }
-        #twitter{
-            height: 33px;
-            width: 33px;
-            border-radius: 360px;
-            float: left;
-            margin-left: 422px;
-        }
-        #instagram{
-            height: 33px;
-            width: 33px;
-            border-radius: 360px;
-            float: left;
-        }
-        #facebook{
-            height: 33px;
-            width: 33px;
-            border-radius: 360px;
-            float: left;
-            
-        }
-        #whatsapp{
-            height: 33px;
-            width: 33px;
-            border-radius: 360px;
-            float: left;  
-        }
-        #endp2{
-            width: fit-content;
-            margin-left: 320px;
-        }
-        #conbox1{
-            height: 500px;
-            width: 500px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 350px;
-            margin-top: 50px;
-            box-shadow: 4px 4px 4px 6px #eee;
-            border-top: 2px solid goldenrod;
-            border-bottom: 2px solid goldenrod;
-
-        }
-        #conboxpart1{
-            height: 450px;
-            width: 450px;
-            margin-top: 25px;
-            margin-left: 25px;
-            float: left;
-        }
-        #p10{
-            width: 400px;
-        }
-        #gmailbox{
-            height: 65px;
-            width: 100%;
-            margin-top: 30px
-        
-        }
-        #mobbox{
-            height: 65px;
-            width: 100%;
-        
-        }
-        #locbox{
-            height: 240px;
-            width: 100%;
-        }
-        #conbox2{
-            height: 650px;
-            width: 800px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 20px;
-            margin-top: 50px;
-            box-shadow: 4px 4px 4px 6px #eee;
-            border-top: 2px solid goldenrod;
-            border-bottom: 2px solid goldenrod;
-        }
-
-        .item{
-            height: 100px;
-            width: 250px;
-            margin-top: 10px;
-            margin-top: 10px;
-        }
-        .item:hover{
-            background-color: lightgoldenrodyellow;
-            cursor: pointer; 
-            border-radius: 370px;          
-        }
- 
-
-        #poxp1:hover{
-            color: aliceblue;
-            background-color: blue;
-        }
-        #poxp2{
-            border: 1px solid white;
-            width: 50px;
-            margin: 0 auto;
-            padding-left: 20px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            margin-top: 100px;
-            border-radius: 140px;
-            background-color: whitesmoke;
-        }
-        #poxp2:hover{
-            color: white;
-            background-color: black;
-            cursor: pointer;
-        }
-        #poxp1{
-            color: crimson;
-            border: 1px solid white;
-            width: 50px;
-            margin: 0 auto;
-            padding-left: 20px;
-            padding-top: 20px;
-            padding-bottom: 10px;
-            padding-right: 30px;
-            margin-top: 100px;
-            border-radius: 140px;
-            background-color: whitesmoke;
-        }
-        #poxp1:hover{
-            color: white;
-            background-color: crimson;
-            cursor: pointer;
-        }
-        #poxp3{
-            color: gold;
-            border: 1px solid white;
-            width: 50px;
-            margin: 0 auto;
-            padding-left: 30px;
-            padding-top: 9px;
-            padding-bottom: 20px;
-            padding-right: 40px;
-            margin-top: 100px;
-            border-radius: 140px;
-            background-color: whitesmoke;
-        }
-        #poxp3:hover{
-            color: white;
-            background-color: gold;
-            cursor: pointer;
-        }
-        #poxp4{
-            color: slateblue;
-            border: 1px solid white;
-            width: 50px;
-            margin: 0 auto;
-            padding-left: px;
-            padding-top: 10px;
-            padding-bottom: 20px;
-            padding-right: 26px;
-            margin-top: 100px;
-            border-radius: 129px;
-            background-color: whitesmoke;
-        }
-        #poxp4:hover{
-            color: white;
-            background-color: slateblue;
-            cursor: pointer;
-        }
-        #poxp5{
-            color: darksalmon;
-            border: 1px solid white;
-            width: 50px;
-            margin: 0 auto;
-            padding-left: 35px;
-            padding-top: 10px;
-            padding-bottom: 30px;
-            padding-right: 9px;
-            margin-top: 100px;
-            border-radius: 129px;
-            background-color: whitesmoke;
-        }
-        #poxp5:hover{
-            color: white;
-            background-color: darksalmon;
-            cursor: pointer;
-        }
-        #poxp6{
-            color: red;
-            border: 1px solid white;
-            width: 50px;
-            margin: 0 auto;
-            padding-left: 5px;
-            padding-top: 40px;
-            padding-bottom: 30px;
-            padding-right:30px;
-            margin-top: 100px;
-            border-radius: 129px;
-            background-color: whitesmoke;
-
-        }
-        #poxp6:hover{
-            color: white;
-            background-color: red;
-            cursor: pointer;
-        }
-        #do1{
-            height: 550px;
-            width: 400px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 200px;
-            margin-top: 10px;
-            box-shadow: 4px 4px 4px 4px #eee;
-            text-align: center;
-            margin-top: 20px;
-            
-        }
-        #do2{
-            height: 550px;
-            width: 400px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 200px;
-            margin-top: 10px;
-            box-shadow: 4px 4px 4px 4px #eee;
-            text-align: center;
-            margin-top: 20px;
-        }
-        #do3{
-            height: 550px;
-            width: 400px;
-            border: 1px solid #eee;
-            float: left;
-            margin-left: 200px;
-            margin-top: 10px;
-            box-shadow: 4px 4px 4px 4px #eee;
-            text-align: center;
-            margin-top: 20px;
-        }
-        #ceo{
-            height: 300px;
-            width: 300px;
-            background-image: url(Staff/Ceo.jpg);
-            border-radius: 360px;
-            margin-left: 50px;
-        }
-        #vicemanager{
-            height: 300px;
-            width: 300px;
-            background-image: url(Staff/vice\ meneger.jpg);
-            border-radius: 360px;
-            margin-left: 50px;
-        }
-        #PM{
-            height: 300px;
-            width: 300px;
-            background-image: url(Staff/Product\ manager.jpg);
-            border-radius: 360px;
-            margin-left: 50px;
-            margin-top: 10px;
-        }
-        .myname{
-            padding: 10px;
-            size: 30;
-        }
-        #row1{
-            height: 100px;
-            width: 40%;
-            border: 1px solid  white;
-            margin-top: 40px;
-            font-size: 30px;
-            margin-left: 30px;
-            float: left;
-        }
-        #row2{
-            height: 100px;
-            width: 40%;
-            border: 1px solid white;
-            margin-top: 40px;
-            font-size: 30px;
-            margin-left: 80px;
-            float: left;
-        }
-        .myemail{
-            padding: 10px;;
-
-        }
-        #row3{
-            height: 100px;
-            width: 85%;
-            border: 1px solid white;
-            margin-top: 40px;
-            font-size: 30px;
-            margin-left: 30px;
-            margin-top: 150px;
-        }
-        .mysubject{
-            padding: 15px;
-        }
-        #row4{
-            height: 300px;
-            width: 85%;
-            border: 1px solid white;
-            margin-top: 5px;
-            font-size: 30px;
-            margin-left: 30px;
-
-        }
-        .mymessage{
-            padding-top: 30;
-            padding-bottom: 200px;
-            padding-right: 30px;
-            padding-left: 0;
-
-        }
-        #mess{
-            width: fit-content;
-            align-content: center;
-            background-color: lightgoldenrodyellow;
-            color: black;
-            margin-left: 330px;
-            border: 1px solid gold;
-        }
-        #mess:hover{
-            background-color: goldenrod;
-            cursor: pointer;
-        }
-        #por1{
-            height: 450px;
-            width: 300px;
-            border: 1px solid black;
-            margin-left: 130px;
-            float: left;
-            margin-top: 20px;
-            border: 1px solid #eee;
-            box-shadow: 4px 4px 4px 4px #eee;
-            background-image: url(protfolio/product12.jpg);
-        }
-        #por2{
-            height: 200px;
-            width: 300px;
-            border: 1px solid black;
-            margin-left:30px;
-            float: left;
-            margin-top: 20px;
-            border: 1px solid #eee;
-            box-shadow: 4px 4px 4px 4px #eee;
-            background-image: url(protfolio/product1.jpg);
-
-        }
-        #por3{
-            height: 500px;
-            width: 300px;
-            border: 1px solid black;
-            float: left;
-            margin-left: 30px;
-            margin-top: 20px;
-            border: 1px solid #eee;
-            box-shadow: 4px 4px 4px 4px #eee;
-            background-image: url(protfolio/product11.jpg);
-        }
-        #por4{
-            height: 300px;
-            width: 500px;
-            border: 1px solid black;
-            float: left;
-            margin-left: 40px;
-            margin-top: 20px;
-            border: 1px solid #eee;
-            box-shadow: 4px 4px 4px 4px #eee;
-            background-image: url(protfolio/product9.jpg);
-        }
-        #por5{
-            height: 500px;
-            width: 700px;
-            margin-left: 30px;
-            margin-top: 10px;
-            margin-bottom: 50px;
-            float: left;
-            background-image: url(protfolio/product2.jpg);
-            border: 1px solid #eee;
-            box-shadow: 4px 4px 4px 10px #eee;
-
-        }
-        .navbar{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background-color: lightgoldenrodyellow;
-        }
-        .navbar ul{
-            display: inline-flex;
-            list-style-type: none;
-            color: gold;
-        }
-        .navbar ul li{
-            margin:20px;
-            text-transform: capitalize;
-            font-size: 1.2em;
-            padding: 5px;
-        }
-        .navbar ul li a{
-            text-decoration: none;
-            color: gold;
-        }
-        .active .navbar ul li:hover{
-            background-color: aliceblue;
-        }
-        .list{
+            cursor: auto;
+            background-color: #fff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            background-color: #ff4d4d; 
+            color: white; 
+        }
+        .icon {
+            font-size: 3em;
+            color: #ff4d4d;
+            margin-bottom: 15px;
+            transition: transform 0.3s, color 0.5s; 
+        }
+        .card:hover .icon {
+            transform: scale(1.1);
+            color: white; 
+        }
+        .highlight {
+            color: #ffcccb;
+            font-weight: bold;
+        }
+        .notlight {
+            color: red; /* Changed to red */
+            font-weight: bold;
+            text-decoration: none; /* Remove underline */
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
             display: none;
-            position: absolute;
+            z-index: 1000;
         }
-        .navbar ul li:hover .list{
-            display: block;
-
+        .read-more-btn {
+            margin-top: 15px;
+            background-color: #ffcccb; 
+            border: none; 
+            color: #333; 
+            transition: background-color 0.3s; 
+            padding: 5px 15px;
         }
-
-    
-</style>
+        .read-more-btn:hover {
+            background-color: #ff4d4d; 
+            color: white; 
+        }
+        @media (max-width: 576px) {
+            .icon {
+                font-size: 2em; 
+            }
+        }
+    </style>
+</head>
 <body>
-    <div class="container">
-        <div id="topbar"><div><i class="fa fa-envelope" style="color: gold; margin-left: 5px;"></i><a href="">khizersmarttt@gmail.com</a>&nbsp;<i class="fa fa-mobile-phone" style="color: gold; font-size: 24px; margin-left: 5px;"></i>03212174500 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-twitter" style="font-size:24px; color: gold;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-instagram" style="font-size:24px; color: gold;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-whatsapp" style="font-size:24px; color: gold;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-facebook-f" style="font-size:24px; color: gold;"></i></div></div>
-        <div class="navbar">
-            <h1 style="color: gold;">WELCOME</h1>
-        
-            <ul>
-                <li class="active"><a href=>Home</a></li>
-                <li style="color: gold;"><a href="#h1"></a>About</li>
-                <li style="color: gold;"><a href=""></a>Services</li>
-                 <li style="color: gold;"><a href=""></a>Portfolio</li>
-                <li style="color: gold;"><a href="">Team</a></li>
-                 <li style="color: gold;"><a href="">Contact</a></li>
-                 <li style="color: gold;"><a href="">Dropdown</a></li>
-                <div class="list">
-                     <ul>
-                       <li>Dropdown1</li>
-                  <li>dropdown2</li>
-                       <li>dropdown3</li>
-                     </ul>
-                 </div>
-                 <li style="color: gold;"><a href=""></a>Get Started</li>
-            </ul>
-        </div>
-        <div id="section">
-<div id="wowslider-container1">
-        <div id="black"><div class="ws_images"><ul>
-            <li><img src="data1/images/build1.jpg" alt="New York City." title="New York City." id="wows1_0"/></li>
-            <li><a href="http://wowslider.net"><img src="data1/images/build2.jpg" alt="bootstrap image slider" title="Japan." id="wows1_1"/></a></li>
-            <li><a href="sfwafwaf" target="_self"><img src="data1/images/build3.jpg" alt="London." title="London." id="wows1_2"/></a></li>
-        </ul></div>
-        <div class="ws_bullets"><div>
-            <a href="#" title="New York City."><span><img src="data1/tooltips/build1.jpg" alt="New York City."/>1</span></a>
-            <a href="#" title="Japan."><span><img src="data1/tooltips/build2.jpg" alt="Japan."/>2</span></a>
-            <a href="#" title="London."><span><img src="data1/tooltips/build3.jpg" alt="London."/>3</span></a>
-        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap slideshow</a> by WOWSlider.com v9.0</div>
-    <div class="ws_shadow"></div>
-    </div></div>	
-    <script type="text/javascript" src="engine1/wowslider.js"></script>
-    <script type="text/javascript" src="engine1/script.js"></script>
-            <div class="box">
-                <div><i class="fa fa-laptop" style="font-size:48px;color:gold; margin-right: 100px;"></i></div>
-                <h1 style="margin-right: 80px; color: gold;">Lorem</h1>
-                <p style="margin-right: 10000px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit sed, dolore, ex pariatur odio non dignissimos sint assumenda magni excepturi ut repellendus fugiat commodi nihil! Quia illo consectetur necessitatibus modi?
-                In, dolorem harum maiores quasi, optio, minima vel dignissimos fuga asperiores accusantium sapiente. Quos nihil enim unde odio earum eos?</p>
-            </div>
-            <div class="box">
-                <div><i class="fa fa-briefcase" style="font-size:48px;color:gold; margin-right: 100px;"></i></div>
-                <h1 style="margin-right: 80px; color: gold;">Forem</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit sed, dolore, ex pariatur odio non dignissimos sint assumenda magni excepturi ut repellendus fugiat commodi nihil! Quia illo consectetur necessitatibus modi?
-                In, dolorem harum maiores quasi, optio, minima vel dignissimos fuga asperiores accusantium sapiente. Quos nihil enim unde odio earum eos?</p>
-            </div>
-            <div class="box">
-                <div><i class="fa fa-calendar" style="font-size:48px;color:gold;margin-right: 100px;"></i></div>
-                <h1 style="margin-right: 80px; color: gold;">Sorem</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit sed, dolore, ex pariatur odio non dignissimos sint assumenda magni excepturi ut repellendus fugiat commodi nihil! Quia illo consectetur necessitatibus modi?
-                In, dolorem harum maiores quasi, optio, minima vel dignissimos fuga asperiores accusantium sapiente. Quos nihil enim unde odio earum eos?</p>
-            </div>
 
+<div class="container mt-5">
+    <h1 class="text-center">About Us</h1>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card p-4">
+                <i class="fas fa-hospital icon"></i>
+                <h2>Welcome to <span class="highlight">Life Link</span>!</h2>
+                <p>We are dedicated to revolutionizing emergency medical services through our innovative eAmbulance solutions. Our mission is to ensure that quality healthcare is accessible to everyone, anytime, anywhere.</p>
+                <button class="btn read-more-btn" onclick="window.location.href='#';">Read More</button>
+            </div>
         </div>
-        <div id="about"><h1 id="h1"><u>ABOUT</u></h1></div>
-        <div id="bigbox">
-            <p id="bigp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit amet in vero doloremque quasi laboriosam rem, qui fugit ut blanditiis sed magni praesentium placeat totam aliquam soluta repellendus. Earum, error.
-            Consectetur?</p>
-            <div class="smallbox"><h1 style="color: gold;">WE ARE POTENTIALLY ONE OF THE BEST COMPANY IN THE WORLD!!</h1>
-                <br>
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eum corporis non iste eos accusantium? Quo quos soluta numquam ipsa? <br> 
-                <br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit veniam ullam aliquid fugiat eius unde nobis beatae nesciunt, praesentium, non laborum, esse tempora rem dolorum dolor maxime placeat quidem! Velit ipsum vel maxime ratione quaerat, quo necessitatibus id accusantium molestiae nostrum commodi harum. <br>
-                <br>
-                Lorem ipsum dolor sit amet.
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing.
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, sunt!
-                <br>
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nihil quo ut molestiae, provident necessitatibus aliquam optio, dolor neque aliquid sequi eum, delectus voluptas rerum fugiat animi quia maxime nostrum?
-            </p></div>
-            <div class="smallbox2"></div>
+
+        <div class="col-md-8 mb-4">
+            <div class="card p-4">
+                <i class="fas fa-road icon"></i>
+                <h2>Our Journey</h2>
+                <p><span class="highlight">Our Team</span> has set out with a vision to bridge the gap between urgent medical needs and rapid response. Our commitment to leveraging technology has allowed us to expand our services to numerous cities and regions.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card p-4">
+                <i class="fas fa-map-marked-alt icon"></i>
+                <h2>Our Reach</h2>
+                <p>We proudly operate in over <span class="highlight">Many</span> cities/regions, providing timely and efficient medical assistance. Our extensive network ensures that help is just a call away, no matter where you are located.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card p-4">
+                <i class="fas fa-ambulance icon"></i>
+                <h2>Our Fleet</h2>
+                <p>Our fleet of eAmbulances is equipped with cutting-edge medical technology and staffed by highly trained professionals. Among our best-performing eAmbulances, we highlight:</p>
+                <ul class="list-unstyled">
+                    <li><strong>First Responder Ambulance</strong>: Designed for rapid response to emergencies, equipped with basic life support systems.</li>
+                    <li><strong>Isolation Ambulance</strong>: Praised for its spacious design, accommodating larger medical teams.</li>
+                    <li><strong>Advanced Life Support Ambulance</strong>: Equipped with advanced medical equipment for critical care during transport.</li>
+                    <li><a href="#" class="notlight">Our Other Ambulances</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card p-4">
+                <i class="fas fa-shield-alt icon"></i>
+                <h2>Our Commitment</h2>
+                <p>At <span class="highlight">Life Link</span>, we believe that every second counts. Our team is committed to providing prompt, professional, and compassionate care.</p>
+            </div>
+        </div>
+
+        <div class="col-md-8 mb-4">
+            <div class="card p-4">
+                <i class="fas fa-users icon"></i>
+                <h2>Join Us</h2>
+                <p>Whether you’re seeking emergency services or want to learn more about how we operate, we invite you to explore our website. Together, we can make a difference in emergency healthcare.</p>
+                <p>For inquiries, feel free to contact us at <a href="#" class="notlight">Contact</a>.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Back to Top Button -->
+<button class="btn btn-primary back-to-top" id="backToTop">↑</button>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    // Back to Top button functionality
+    const backToTopButton = document.getElementById('backToTop');
     
-        </div>
-        <div id="borderbas">
-            <div class="des2"><h1 style="color: gold;">O1</h1><h1 style="color: gold;">LOREM Panini</h1><P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos minima asperiores placeat dicta aspernatur corrupti illo quibusdam error voluptatibus possimus velit iste, iure labore repellendus doloribus, impedit odit blanditiis.</P></div>
-            <div class="des2"><h1 style="color: gold;">02</h1><h1 style="color: gold;">LOREM Kurosagi</h1><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero impedit, quas expedita non fugiat qui laboriosam nisi illo aut distinctio tenetur, debitis harum est ducimus et vitae ut quidem provident!</p></div>
-            <div class="des2"><h1 style="color: gold;">03</h1><h1 style="color: gold;">LOREM yuji</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, maiores. Vel nihil atque perferendis cupiditate ratione quasi placeat laboriosam commodi velit quae, voluptatem voluptatibus dolore ab maiores quis. Omnis, labore!</p></div>
-            <div class="des3"><h1 style="color: gold;">04</h1><h1 style="color: gold;">LOREM tatakai</h1><P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos minima asperiores placeat dicta aspernatur corrupti illo quibusdam error voluptatibus possimus velit iste, iure labore repellendus doloribus, impedit odit blanditiis.</P></div>
-            <div class="des3"><h1 style="color: gold;">05</h1><h1 style="color: gold;">LOREM ijuseph</h1><P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos minima asperiores placeat dicta aspernatur corrupti illo quibusdam error voluptatibus possimus velit iste, iure labore repellendus doloribus, impedit odit blanditiis.</P></div>
-            <div class="des3"><h1 style="color: gold;">06</h1><h1 style="color: gold;">LOREM pokens</h1><P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos minima asperiores placeat dicta aspernatur corrupti illo quibusdam error voluptatibus possimus velit iste, iure labore repellendus doloribus, impedit odit blanditiis.</P></div>
-            
-        </div>
-        <div id="client"><h1 id="h2"><u>CLIENTS:</u></h1></div></div>
-        <div id="clients">
-            <div class="owl-carousel owl-theme">
-                <div class="item"><h4><img src="clients/client1.png" alt=""></h4></div>
-                <div class="item"><h4><img src="clients/client2.png" alt=""></h4></div>
-                <div class="item"><h4><img src="clients/client3.png" alt=""></h4></div>
-                <div class="item"><h4><img src="clients/client4.png" alt=""></h4></div>
-                <div class="item"><h4><img src="clients/client5.png" alt=""></h4></div>
-                <div class="item"><h4><img src="clients/client6.png" alt=""></h4></div>
-                <div class="item"><h4><img src="clients/client7.png" alt=""></h4></div>
-            </div>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script>var owl = $('.owl-carousel');
-                owl.owlCarousel({
-                    items:4,
-                    loop:true,
-                    margin:10,
-                    autoplay:true,
-                    autoplayTimeout:1000,
-                    autoplayHoverPause:true
-                });
-                $('.play').on('click',function(){
-                    owl.trigger('play.owl.autoplay',[1000])
-                })
-                $('.stop').on('click',function(){
-                    owl.trigger('stop.owl.autoplay')
-                })
-                  
-            </script>
-        </div>
-        <div id="Services"><h1 id="h3"><u>Services:</u></h1></div></div>
-        <div id="daddyservices">
-            <div id="dox1"><div id="poxp1"><i class="fa fa-soccer-ball-o" style="font-size:36px;"></i></div><h2>JotaRo KuJo</h2><p style="margin-left: 50px;">"Yare Yare Daze."</p></div>
-            <div id="dox2"><div id="poxp2"><i class="fa fa-file-image-o" style="font-size:36px"></i></div><h2>Sed Postugalasiza</h2><p style="margin-left: 50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore.</p></div>
-            <div id="dox3"><div id="poxp3"><i class="fa fa-user" style="font-size:36px"></i></div><h2>SaTuRO GoJO</h2><p style="margin-left: 50px;">“In all the heavens and the earth, I alone am the honored one.”</p></div>
-            <div id="dox4"><div id="poxp4"><i class="fa fa-bar-chart" style="font-size:36px"></i></div><h2>Son GoKu</h2><p style="margin-left: 50px;">"I am the warrior you've heard of in legends, pure of heart and awakened by fury, that's what I am. I am the Super Saiyan, Son Goku!"</p></div>
-            <div id="dox5"><div id="poxp5"><i class="fa fa-handshake-o" style="font-size:36px"></i></div><h2>Sung Jin WOO</h2><p style="margin-left: 50px;">"I Feel Like Something Within Me Is Lost Every Time I Get Stronger."</p></div>
-            <div id="dox6"><div id="poxp6"><i class="fa fa-newspaper-o" style="font-size:36px"></i></div><h2>RyOMen SuKuNa</h2><p style="margin-left: 50px;">"Stand proud. You are strong."</p></div>
+    window.onscroll = function() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            backToTopButton.style.display = 'block';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    };
 
-        </div>
-        <div id="action"><div id="bar"> <h1 style="margin-left: 140px; margin-top: 130px;">Call to Action</h1><br><p id="p1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-        <div id="bar2"><p style="margin-top: 10px;">Call to Action</p></div>
-        </div>
-        <div id="port"><h1 id="h4"><u>PROTFOLIO:</u></h1></div></div>
-        <div><p id="bigp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit amet in vero doloremque quasi laboriosam rem, qui fugit ut blanditiis sed magni praesentium placeat totam aliquam soluta repellendus. Earum, error.
-            Consectetur?</p>
-        </div>
-        <div id="portbox">
-            <div id="por1"></div>
-            <div id="por2"></div>
-            <div id="por3"></div>
-            <div id="por4"></div>
-            <div id="por5"></div>
-        </div>
-        <div id="Team"><h1 id="h5"><u>TEAM:</u></h1></div></div>
-        <div id="Teambox">
-            <div id="do1">
-                <div id="ceo"></div><h2 style="margin-top: 10px;">Hervey Specter:</h2> <h2>CEO:</h2><P style="margin-left: 50px;">“When you are backed against the wall, break the goddamn thing down.”</P>
-            </div>
-            <div id="do2">
-                <div id="vicemanager"></div><h2 style="margin-top: 10px;">Mike Ross:</h2><h2>Vice Maneger:</h2><p style="margin-left: 50px;">"Believe in your abilities, trust the process, and success will follow."</p>
-            </div>
-            <div id="do3">
-                <div id="PM"></div><h2 style="margin-top: 10px;">Donna Roberta Paulsen:</h2><h2>Product Maneger:</h2><p style="margin-left: 50px;">"If you want somebody to just sit at her desk, answer your phones and pick up your dry cleaning, then put out a want ad, because that's not me."</p>
-            </div>
-        </div>
-        <div id="Contact"><h1 id="h6"><u>CONTACT:</u></h1></div></div>
-        <div><p id="bigp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit amet in vero doloremque quasi laboriosam rem, qui fugit ut blanditiis sed magni praesentium placeat totam aliquam soluta repellendus. Earum, error.
-            Consectetur?</p>
-        <div id="conbox">
-            <div id="conbox1">
-                <div id="conboxpart1"><i class="fa fa-map-marker" style="font-size:40px; float: left;margin-top: 10px; margin-left: 10px;"></i><h1 style="font-size: 30px;">location:</h1><p id="p10">A108 Adam Street, New York, NY 535022</p>
-                    <div id="gmailbox"><i class="fa fa-envelope" style="font-size:40px; float: left; margin-left: 10px;"></i><h1 style="font-size: 30px;">Email:</h1><p style="width: 400px; margin-left: 15px;">khizersmarttt@gmail.com</p></div>
-                    <div id="mobbox"><i class="fa fa-mobile-phone" style="font-size:40px; float: left; margin-left: 10px;"></i><h1 style="font-size: 30px;">Phone No:</h1><p style="width: 400px; margin-left: 20px;"><u>03212174500</u></p></div>
-                    <div id="locbox"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.445785295115!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1705692949416!5m2!1sen!2sus" width="450px" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                </div>
-            </div>
-            <div id="conbox2">
-                <div id="row1">
-                 <label for="myname">Your Name:</label><br>
-                 <input type="name" class="myname" size="40px">
-                </div>
-                <div id="row2">
-                    <label for="myemail">Email:</label><br>
-                 <input type="text" class="myemail" size="40px">
-                </div>
-                <div id="row3">
-                    <label for="mysubject">Subject:</label><br>
-                 <input type="text" class="mysubject" size="100px">
-                </div>
-                <div id="row4">
-                    <label for="mymessage">Message:</label><br>
-                 <input type="text" class="mymessage" size="100px">
-                </div>
-                <h2 id="mess">Send Message</h2>
-            </div>
-        </div>
-        <div id="emptyarea"></div>
-        <div class="end1"><h1 id="h7">Goodbye</h1>
-            <div id="endbox"><p id="endp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium Lorem ipsum dolor sit amet consectetur.</p>
-                <div id="socialbar">
-                    <div id="twitter"><i class="fa fa-twitter" style="font-size:24px"></i></div>
-                    <div id="instagram"><i class="fa fa-instagram" style="font-size:24px"></i></div>
-                    <div id="whatsapp"><i class="fa fa-whatsapp" style="font-size:24px"></i></i></div>
-                    <div id="facebook"><i class="fa fa-facebook-f" style="font-size:24px"></i></div>
-                </div>
-            </div>
-            <div id="endbox"><p id="endp2">&copy;copyright "This project". All rights reserved</p><p style="margin-left: 400px; margin-top: 10px;">designed by Khizer Jamil</p>
-            </div>
-        </div>
-            
+    backToTopButton.onclick = function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+</script>
+
 </body>
 </html>
